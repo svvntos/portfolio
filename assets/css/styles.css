@@ -304,7 +304,7 @@ img {
 .home_img{
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 5rem;
 }
 
 .home_img img{
