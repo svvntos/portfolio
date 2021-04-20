@@ -221,7 +221,10 @@ img {
 }
 
 /* Change background header */
-
+.scroll-header{
+  background-color: var(--first-color-lighten);
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
 
 /*===== SCROLL TOP =====*/
 
