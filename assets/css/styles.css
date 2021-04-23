@@ -348,7 +348,9 @@ img {
 
 
 /*===== ABOUT =====*/
-
+.about_data{
+  text-align: center;
+}
 
 /*===== QUALIFICATION =====*/
 
