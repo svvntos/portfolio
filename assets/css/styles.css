@@ -346,6 +346,15 @@ img {
   background-color: var(--first-color-light);
 }
 
+.button-white{
+  background-color: var(--first-color-lighten);
+  color: var(--first-color-dark);
+}
+
+.button-white:hover{
+  background-color: var(--first-color-lighten);
+}
+
 
 /*===== ABOUT =====*/
 .about_data{
@@ -405,7 +414,29 @@ img {
 
 
 /*===== PROJECT IN MIND =====*/
+.project_container{
+  padding: 1.5rem;
+  background-color: var(--first-color-dark);
+  color: var(--first-color-lighten);
+  border-radius: .5rem;
+  text-align: center;
+}
 
+.project_icon, .project_title{
+  margin-bottom: var(--mb-1);
+}
+
+.project_icon{
+  font-size: 3.5rem;
+}
+
+.project_title{
+  font-size: 1.5rem;
+}
+
+.project_description{
+  margin-bottom: var(--mb-4);
+}
 
 /*===== PORTFOLIO =====*/
 
