@@ -343,6 +343,15 @@ img {
 .button-light {
   background-color: var(--first-color-light);
 }
+.button-dark{
+  background-color: var(--first-color-dark);
+  color: var(--first-color-lighten);
+  display: block;
+  width: 6rem;
+  margin: auto;
+  text-align: center;
+
+}
 
 .button-white {
   background-color: var(--first-color-lighten);
@@ -568,6 +577,7 @@ i.fab {
 
 .portfolio_data {
   padding: 1.5rem;
+  align-items: center;
 }
 
 .portfolio_subtitle {
@@ -682,7 +692,8 @@ i.fab {
   .portfolio_container {
     grid-template-columns: repeat(2, 1fr);
   }
-}
+
+
 
 @media screen and (min-width: 768px) {
   body {
@@ -777,6 +788,11 @@ i.fab {
 
   .project_title{
     font-size: 2.5rem;
+  }
+
+  .button-dark{
+    text-align: center;
+    width: 6.8rem;
   }
 }
 
