@@ -355,6 +355,16 @@ img {
   background-color: var(--first-color-lighten);
 }
 
+.button-link{
+  background: none;
+  color: var(--first-color);
+  padding: 0;
+}
+
+.button-link:hover{
+  background: none;
+}
+
 
 /*===== ABOUT =====*/
 .about_data{
@@ -439,18 +449,132 @@ img {
 }
 
 /*===== PORTFOLIO =====*/
+.portfolio_nav{
+  text-align: center;
+  margin-bottom: var(--mb-3);
+}
 
+.portfolio_item{
+  margin: 0 var(--mb-2);
+  cursor: pointer;
+}
 
+.portfolio_content{
+  background-color: #fff;
+  border-radius: .5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(174, 190,205, .3);
+}
+
+.portfolio_img{
+  width: 100%;
+  transition: .4s;
+}
+
+.portfolio_data{
+  padding: 1.5rem;
+}
+
+.portfolio_subtitle{
+  font-size: var(--small-font-size);
+  color: var(--first-color-light);
+}
+
+.portfolio_title{
+  font-size: var(--h3-font-size);
+  color: var(--first-color);
+  margin: var(--mb-2) 0;
+}
+
+.portfolio_content:hover{
+  box-shadow: 0 6px 8px rgba(174, 190,205, .4);
+}
+.portfolio_content:hover .portfolio_img{
+  transform: scale(1.02) ;
+}
 /* Active menu portfolio*/
-
+.active-portfolio{
+  color: var(--first-color-dark);
+  font-weight: var(--font-semi-bold);
+}
 
 /*===== TESTIMONIAL =====*/
 
 
 /*===== CONTACTME =====*/
+.contact_container{
+  row-gap: 2.5rem;
+}
 
+.contact_content{
+  grid-template-columns: repeat(auto-fit,minmax(220px, 1fr));
+}
+
+.contact_box{
+  background-color: #fff;
+  border-radius: .5rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(174, 190,205, .3);
+}
+
+.contact_icon, .contact_title{
+  color: var(--first-color);
+}
+
+.contact_icon{
+  font-size: 2rem;
+}
+
+.contact_title{
+  font-size: var(--h3-font-size);
+  margin: var(--mb-1) 0;
+}
+ .contact_box:hover{
+   box-shadow: 0 6px 8px rgba(174, 190,205, .4);
+ }
 
 /*===== FOOTER =====*/
+.footer{
+  background-color: var(--first-color-dark);
+  color: var(--first-color-lighten);
+  text-align: center;
+}
+
+.footer_container{
+  padding: 3rem 0;
+}
+
+.footer_title{
+  font-size: var(--h1-font-size);
+  margin-bottom: var(--mb-1);
+  font-weight: var(--font-semi-bold);
+}
+
+.footer_description{
+  margin-bottom: var(--mb-3);
+}
+
+.footer_social{
+  margin-bottom: var(--mb-6);
+}
+
+.footer_link{
+  font-size: 1.4rem;
+  color: var(--first-color-lighten);
+  margin: 0 var(--mb-1);
+  transition: .3s;
+}
+
+.footer_link:hover{
+  color: var(--first-color-light);
+}
+
+.footer_copy{
+  font-size: var(--smaller-font-size);
+  color: var(--first-color-light);
+}
+
 
 
 /*===== MEDIA QUERIES =====*/
