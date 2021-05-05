@@ -796,7 +796,7 @@ i.fab {
   }
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:1024px) {
 
   .bd-container{
     margin-left: auto;
